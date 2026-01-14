@@ -68,6 +68,11 @@ class ApiSubmitter
         $this->importJob     = $importJob;
     }
 
+    public function getImportJob(): ImportJob
+    {
+        return $this->importJob;
+    }
+
     /**
      * @throws ImporterErrorException
      */
